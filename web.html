@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Database Application</title>
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="body.css">
+</head>
+<body>
+
+    <header class="header">
+        <h1>Student Database Management</h1>
+    </header>
+
+    <section class="container">
+        <fieldset class="big_box">
+            <legend id="legend">Enter Student Details</legend>
+            <label class="label" for="fname">First Name</label><br>
+            <input class="input" id="fname" type="text" placeholder="Jane..."><br>
+            <label class="label" for="lname">Last Name</label><br>
+            <input class="input" id="lname" type="text" placeholder="Doe..."><br>
+            <label class="label" for="email">Email Address</label><br>
+            <input class="input" type="email" name="" id="email" placeholder="jane_doe@gmail.com"><br>
+            <label class="label" for="class">Present Class</label><br>
+            <select class="input" name="" id="class">
+                <option value="class_1">class 1</option>
+                <option value="class_2">class 2</option>
+                <option value="class_3">class 3</option>
+            </select><br>
+    
+            <br><button id="btn" type="submit">Submit</button>
+        </fieldset>
+
+        <fieldset class="big_box">
+            <legend id="legend">Available Students</legend>
+            <label class="class">Class 1</label><br>
+            <ol id="list_1"></ol><br>
+
+            <label class="class">Class 2</label><br>
+            <ol id="list_2"></ol><br>
+
+            <label class="class">Class 3</label><br>
+            <ol id="list_3"></ol><br>
+
+        </fieldset>
+    
+    </section>
+    
+
+    <footer id="footer">
+        <p>in progress...</p>
+    </footer>
+
+    </body>
+
+    <script src="home.js">
+    </script>
+
+</html>
