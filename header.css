@@ -1,0 +1,10 @@
+/* header styling */
+
+.header {
+    width: 100%;
+    height: 70px;
+    /* background-color: #FF0000; */
+    background-color: white;
+    /* border-style: solid; */
+    border-bottom: 1px solid #CCCCCC;
+}

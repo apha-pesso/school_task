@@ -1,0 +1,43 @@
+/* Styling the body */
+
+#btn {
+    height: 25px;
+    border: 1px solid #CCCCCC;
+    margin-right: 10px;
+    padding: 3px;
+}
+
+.big_box {
+    width: 28%;
+    border: 1px solid sandybrown;
+    margin-right: 20px;
+}
+
+.input {
+    margin: 5px 5px 5px 0;
+    font-size: 12px;
+    width: 70%;
+    height: 20px;
+}
+
+.label {
+    font-weight: 600;
+    font-size: 16px;
+    margin: 5px 5px 5px 0;
+}
+
+#legend {
+    font-size: 18px;
+    font-weight: 700;
+    margin-left: 28%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.class {
+    font-weight: 600;
+    font-size: 16px;
+}
